@@ -1,10 +1,10 @@
-# 🏢 ApiEmpresas - Gestão de Empresas e Funcionários
+# 🏢 Api Empresas e Funcionários
 
-Este projeto é uma Web API desenvolvida em **ASP.NET Core** para o gerenciamento de empresas e colaboradores, utilizando **Entity Framework Core** com suporte a **MySQL** via Docker.
+Este projeto é uma Web API desenvolvida em **ASP.NET Core** para o gerenciamento de empresas e funcionarios, utilizando **Entity Framework Core** com suporte a **MySQL** via Docker.
 
 ## 🚀 Como Executar o Projeto
 
-1.  **Pré-requisitos:** Possuir o Docker instalado desktop (recomendado)
+1.  **Pré-requisitos:** Possuir o Docker instalado desktop
 2.  **Execução via Docker:** Na pasta raiz do projeto, onde está o arquivo `docker-compose.yml`, execute:
     ```bash
     docker-compose up -d --build
@@ -41,8 +41,8 @@ O projeto implementa validações rigorosas e tratamento de exceções conforme 
 - `Dockerfile` e `docker-compose.yml`: Configurações de containerização e ambiente.
 
 ---
-**Estudante:** [SEU NOME]  
-**RU:** [SEU RU]
+**Estudante:** [LARISSA GALDINO]  
+**RU:** [4845990]
 
 ## 🛠 Lotes para consulta Empresa 
 ```json
