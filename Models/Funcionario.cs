@@ -9,13 +9,13 @@ namespace TrabalhoApi.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "O nome do funcionário é obrigatório.")]
-        public string Nome { get; set; }
+        public string? Nome { get; set; }
 
         [Required(ErrorMessage = "O cargo é obrigatório.")]
-        public string Cargo { get; set; }
+        public string? Cargo { get; set; }
 
         [Required(ErrorMessage = "O departamento é obrigatório.")]
-        public string Departamento { get; set; }
+        public string? Departamento { get; set; }
 
         [Range(0, double.MaxValue, ErrorMessage = "O salário deve ser um valor positivo.")]
         [Column(TypeName = "decimal(18,2)")]
