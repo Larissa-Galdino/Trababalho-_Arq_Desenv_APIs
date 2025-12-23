@@ -14,7 +14,7 @@ namespace TrabalhoApi.Services
 
         public List<Funcionario> ListarTodos() => _context.Funcionarios.ToList();
 
-        public Funcionario BuscarPorId(int id) => _context.Funcionarios.Find(id);
+        public Funcionario? BuscarPorId(int id) => _context.Funcionarios.Find(id);
 
         public void Criar(Funcionario funcionario)
         {
