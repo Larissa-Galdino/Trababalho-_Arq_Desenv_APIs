@@ -14,7 +14,7 @@ namespace TrabalhoApi.Services
 
         public List<Empresa> ListarTodas() => _context.Empresas.ToList();
 
-        public Empresa BuscarPorId(int id) => _context.Empresas.Find(id);
+        public Empresa? BuscarPorId(int id) => _context.Empresas.Find(id);
 
         public void Criar(Empresa empresa)
         {
