@@ -46,7 +46,7 @@ namespace TrabalhoApi.Controllers
                         Departamento = d.Departamento,
                         Salario = d.Salario,
                         DataAdmissao = d.DataAdmissao,
-                        EmpresaId = d.EmpresaId // GARANTA QUE O DTO TEM ESSE CAMPO
+                        EmpresaId = d.EmpresaId
                     }).ToList();
 
                     foreach (var f in funcionarios)
@@ -78,9 +78,19 @@ namespace TrabalhoApi.Controllers
                     return CreatedAtAction(nameof(GetById), new { id = f.Id }, f);
                 }
             }
+            // TRATAMENTO ESPECÍFICO PARA ERRO DE FORMATAÇÃO (JSON/SALÁRIO)
+            catch (JsonException jEx)
+            {
+                return BadRequest(new
+                {
+                    erro = "Erro na formatação do JSON.",
+                    detalhe = "Verifique se os números (Salário) estão usando ponto (.) em vez de vírgula (,).",
+                    tecnico = jEx.Message
+                });
+            }
+            // TRATAMENTO PARA ERROS DE BANCO DE DADOS (MYSQL)
             catch (Exception ex)
             {
-                // Pega o erro detalhado do MySQL
                 var erroReal = ex.InnerException != null ? ex.InnerException.Message : ex.Message;
                 return StatusCode(500, new { erro = "Erro ao processar funcionários.", detalhe = erroReal });
             }

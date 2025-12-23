@@ -49,25 +49,74 @@ O projeto implementa validações rigorosas e tratamento de exceções conforme 
 
 [
   {
-    "nome": "Empresa de Teste Final",
-    "cnpj": "12345678000199",
-    "setor": "TI",
-    "endereco": "Rua Teste, 123",
-    "dataFundacao": "2025-01-01T00:00:00"
+    "nome": "CineMundo Produções",
+    "cnpj": "10203040000199",
+    "setor": "Entretenimento",
+    "endereco": "Av. das Artes, 50 - RJ",
+    "dataFundacao": "2015-08-20T00:00:00"
   },
   {
-    "nome": "Tech Soluções Digitais",
-    "cnpj": "12345678000190",
-    "setor": "Tecnologia",
-    "endereco": "Rua da Inovação, 100 - SP",
-    "dataFundacao": "2020-05-15T00:00:00"
+    "nome": "Som Livre Estúdios",
+    "cnpj": "20304050000188",
+    "setor": "Música",
+    "endereco": "Rua da Harmonia, 12 - MG",
+    "dataFundacao": "2010-03-12T00:00:00"
   },
   {
-    "nome": "Logística Expressa",
-    "cnpj": "98765432000188",
-    "setor": "Transporte",
-    "endereco": "Av. Industrial, 500 - PR",
-    "dataFundacao": "2018-10-20T00:00:00"
+    "nome": "GameOn Software",
+    "cnpj": "30405060000177",
+    "setor": "Jogos Digitais",
+    "endereco": "Parque Tecnológico, Sala 4 - SC",
+    "dataFundacao": "2022-01-10T00:00:00"
+  },
+  {
+    "nome": "Agência Click Mídia",
+    "cnpj": "40506070000166",
+    "setor": "Publicidade",
+    "endereco": "Av. Paulista, 1500 - SP",
+    "dataFundacao": "2019-11-30T00:00:00"
+  },
+  {
+    "nome": "Portal News 24h",
+    "cnpj": "50607080000155",
+    "setor": "Jornalismo",
+    "endereco": "Esplanada Sul, Bloco C - DF",
+    "dataFundacao": "2012-05-22T00:00:00"
+  },
+  {
+    "nome": "Teatro Luz do Sol",
+    "cnpj": "60708090000144",
+    "setor": "Cultura",
+    "endereco": "Rua das Flores, 88 - PR",
+    "dataFundacao": "1998-07-04T00:00:00"
+  },
+  {
+    "nome": "StreamBox Filmes",
+    "cnpj": "70809010000133",
+    "setor": "Streaming",
+    "endereco": "Edf. Digital, andar 10 - SP",
+    "dataFundacao": "2021-02-14T00:00:00"
+  },
+  {
+    "nome": "Rádio FM Total",
+    "cnpj": "80901020000122",
+    "setor": "Comunicação",
+    "endereco": "Torre Alta, s/n - ES",
+    "dataFundacao": "2005-09-18T00:00:00"
+  },
+  {
+    "nome": "Editora Paginas",
+    "cnpj": "90102030000111",
+    "setor": "Literatura",
+    "endereco": "Largo do Paço, 05 - BA",
+    "dataFundacao": "2014-12-01T00:00:00"
+  },
+  {
+    "nome": "Eventos VIP Brasil",
+    "cnpj": "01203040000100",
+    "setor": "Eventos",
+    "endereco": "Rua do Ouro, 777 - GO",
+    "dataFundacao": "2017-04-10T00:00:00"
   }
 ]
 ```
@@ -76,28 +125,45 @@ O projeto implementa validações rigorosas e tratamento de exceções conforme 
 ```json
 [
   {
-    "nome": "João Silva",
-    "cargo": "Analista de Sistemas",
-    "departamento": "TI",
+    "nome": "Ricardo Almeida",
+    "cargo": "Mestre de Obras",
+    "departamento": "Construção",
     "salario": 4500.00,
-    "dataAdmissao": "2025-12-21T00:00:00",
+    "dataAdmissao": "2023-05-10T08:00:00",
     "empresaId": 1
   },
   {
-    "nome": "Maria Oliveira",
-    "cargo": "Desenvolvedora Full Stack",
-    "departamento": "Desenvolvimento",
-    "salario": 6800.50,
-    "dataAdmissao": "2025-12-21T00:00:00",
+    "nome": "Fernanda Souza",
+    "cargo": "Estilista Senior",
+    "departamento": "Criação",
+    "salario": 7200.50,
+    "dataAdmissao": "2022-03-15T09:00:00",
     "empresaId": 1
   },
   {
-    "nome": "Pedro Santos",
-    "cargo": "Especialista em QA",
-    "departamento": "Qualidade",
-    "salario": 5200.00,
-    "dataAdmissao": "2025-12-20T00:00:00",
-    "empresaId": 1
+    "nome": "Dr. João Mendes",
+    "cargo": "Dentista",
+    "departamento": "Clínico",
+    "salario": 12500.00,
+    "dataAdmissao": "2021-10-20T08:00:00",
+    "empresaId": 10
+  },
+  {
+    "nome": "Marcos Oliveira",
+    "cargo": "Padeiro",
+    "departamento": "Produção",
+    "salario": 2800.00,
+    "dataAdmissao": "2024-01-05T04:00:00",
+    "empresaId": 8
+  },
+  {
+    "nome": "Dra. Helena Castro",
+    "cargo": "Advogada Civil",
+    "departamento": "Jurídico",
+    "salario": 9500.00,
+    "dataAdmissao": "2020-06-12T09:00:00",
+    "empresaId": 5
   }
 ]
 ```
+

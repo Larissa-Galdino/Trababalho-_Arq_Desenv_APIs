@@ -12,7 +12,7 @@ using TrabalhoApi.Data;
 namespace TrabalhoApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251221024850_InitialCreate")]
+    [Migration("20251222235803_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

@@ -208,3 +208,4 @@ C:\Users\PC\Desktop\TrabalhoApi\obj\Debug\net8.0\refint\TrabalhoApi.dll
 C:\Users\PC\Desktop\TrabalhoApi\obj\Debug\net8.0\TrabalhoApi.pdb
 C:\Users\PC\Desktop\TrabalhoApi\obj\Debug\net8.0\TrabalhoApi.genruntimeconfig.cache
 C:\Users\PC\Desktop\TrabalhoApi\obj\Debug\net8.0\ref\TrabalhoApi.dll
+C:\Users\PC\Desktop\TrabalhoApi\obj\Debug\net8.0\TrabalhoApi.sourcelink.json
