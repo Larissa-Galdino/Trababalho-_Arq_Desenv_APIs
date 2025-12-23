@@ -10,9 +10,13 @@ Este projeto é uma Web API desenvolvida em **ASP.NET Core** para o gerenciament
     docker-compose up -d --build
     ```
 3.  **Acesso:** A API utiliza o **Swagger UI** para documentação. Com o Docker, acesse: `http://localhost:5101/swagger`.
-
-
-
+5.  **Acesso Banco de Dados pelo terminal** Senha : root
+    ```bash
+      docker exec -it mysql_db mysql -u root
+      USE trabalhoapi;
+      SHOW TABLES;
+      SELECT * FROM Empresas
+    ```
 ## 🛠 Funcionalidades e Endpoints
 
 A API segue o padrão REST e permite operações de CRUD nas entidades `Empresa` e `Funcionario`:
